@@ -17,6 +17,7 @@ namespace WcfServiceLibrary2
 
         public double PromedioPracticas(int p1, int p2, int p3, int p4)
         {
+            p1 = 0;
             double douPromedio = 0;
             int[] arrNotas = { p1, p2, p3, p4 };
             Array.Sort(arrNotas);
